@@ -1,0 +1,84 @@
+apply plugin: 'com.android.application'
+apply plugin: 'com.google.ar.sceneform.plugin'
+
+android {
+    compileSdkVersion 29
+    buildToolsVersion "29.0.0"
+    defaultConfig {
+        applicationId "com.example.myapplication"
+        minSdkVersion 24
+        targetSdkVersion 29
+        versionCode 1
+        versionName "1.0"
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+    compileOptions {
+        sourceCompatibility = '1.8'
+        targetCompatibility = '1.8'
+    }
+}
+
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    implementation 'androidx.appcompat:appcompat:1.0.2'
+    implementation 'androidx.constraintlayout:constraintlayout:1.1.3'
+    testImplementation 'junit:junit:4.12'
+    androidTestImplementation 'androidx.test:runner:1.2.0'
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.2.0'
+    implementation "com.google.android.gms:play-services-location:+"
+    implementation "com.google.ar.sceneform.ux:sceneform-ux:1.10.0"
+}
+
+apply plugin: 'com.google.ar.sceneform.plugin'
+
+sceneform.asset('sampledata/toy1.fbx',
+        'default',
+        'sampledata/toy1.sfa',
+        'src/main/assets/toy1')
+
+sceneform.asset('sampledata/toy2.fbx',
+        'default',
+        'sampledata/toy2.sfa',
+        'src/main/assets/toy2')
+
+sceneform.asset('sampledata/toy3.fbx',
+        'default',
+        'sampledata/toy3.sfa',
+        'src/main/assets/toy3')
+
+sceneform.asset('sampledata/toy4.fbx',
+        'default',
+        'sampledata/toy4.sfa',
+        'src/main/assets/toy4')
+
+sceneform.asset('sampledata/toy5.fbx',
+        'default',
+        'sampledata/toy5.sfa',
+        'src/main/assets/toy5')
+
+sceneform.asset('sampledata/toy6.fbx',
+        'default',
+        'sampledata/toy6.sfa',
+        'src/main/assets/toy6')
+
+sceneform.asset('sampledata/toy7.fbx',
+        'default',
+        'sampledata/toy7.sfa',
+        'src/main/assets/toy7')
+
+sceneform.asset('sampledata/toy8.fbx',
+        'default',
+        'sampledata/toy8.sfa',
+        'src/main/assets/toy8')
+
+sceneform.asset('sampledata/toy9.fbx',
+        'default',
+        'sampledata/toy9.sfa',
+        'src/main/assets/toy9')
+

@@ -1,0 +1,351 @@
+{
+  animations: [
+    {
+      clips: [
+        {
+          name: 'Empty.002|CameraAction',
+        },
+        {
+          name: 'Empty.002|Cube.009Action',
+        },
+        {
+          name: 'Empty.002|Cube.010Action',
+        },
+        {
+          name: 'Empty.002|Cube.011Action',
+        },
+        {
+          name: 'Empty.002|Empty.002Action',
+        },
+        {
+          name: 'Cylinder.016|CameraAction',
+        },
+        {
+          name: 'Cylinder.016|Cube.009Action',
+        },
+        {
+          name: 'Cylinder.016|Cube.010Action',
+        },
+        {
+          name: 'Cylinder.016|Cube.011Action',
+        },
+        {
+          name: 'Cylinder.016|Empty.002Action',
+        },
+        {
+          name: 'Cylinder.017|CameraAction',
+        },
+        {
+          name: 'Cylinder.017|Cube.009Action',
+        },
+        {
+          name: 'Cylinder.017|Cube.010Action',
+        },
+        {
+          name: 'Cylinder.017|Cube.011Action',
+        },
+        {
+          name: 'Cylinder.017|Empty.002Action',
+        },
+        {
+          name: 'Cylinder.018|CameraAction',
+        },
+        {
+          name: 'Cylinder.018|Cube.009Action',
+        },
+        {
+          name: 'Cylinder.018|Cube.010Action',
+        },
+        {
+          name: 'Cylinder.018|Cube.011Action',
+        },
+        {
+          name: 'Cylinder.018|Empty.002Action',
+        },
+        {
+          name: 'Cylinder.019|CameraAction',
+        },
+        {
+          name: 'Cylinder.019|Cube.009Action',
+        },
+        {
+          name: 'Cylinder.019|Cube.010Action',
+        },
+        {
+          name: 'Cylinder.019|Cube.011Action',
+        },
+        {
+          name: 'Cylinder.019|Empty.002Action',
+        },
+        {
+          name: 'Cube.009|CameraAction',
+        },
+        {
+          name: 'Cube.009|Cube.009Action',
+        },
+        {
+          name: 'Cube.009|Cube.010Action',
+        },
+        {
+          name: 'Cube.009|Cube.011Action',
+        },
+        {
+          name: 'Cube.009|Empty.002Action',
+        },
+        {
+          name: 'Cube.010|CameraAction',
+        },
+        {
+          name: 'Cube.010|Cube.009Action',
+        },
+        {
+          name: 'Cube.010|Cube.010Action',
+        },
+        {
+          name: 'Cube.010|Cube.011Action',
+        },
+        {
+          name: 'Cube.010|Empty.002Action',
+        },
+        {
+          name: 'Cube.011|CameraAction',
+        },
+        {
+          name: 'Cube.011|Cube.009Action',
+        },
+        {
+          name: 'Cube.011|Cube.010Action',
+        },
+        {
+          name: 'Cube.011|Cube.011Action',
+        },
+        {
+          name: 'Cube.011|Empty.002Action',
+        },
+        {
+          name: 'Camera|CameraAction',
+        },
+        {
+          name: 'Camera|Cube.009Action',
+        },
+        {
+          name: 'Camera|Cube.010Action',
+        },
+        {
+          name: 'Camera|Cube.011Action',
+        },
+        {
+          name: 'Camera|Empty.002Action',
+        },
+      ],
+      path: 'sampledata/toy6.fbx',
+    },
+  ],
+  materials: [
+    {
+      name: 'Material.002',
+      parameters: [
+        {
+          baseColor: [
+            1,
+            1,
+            1,
+            1,
+          ],
+        },
+        {
+          baseColorMap: null,
+        },
+        {
+          normalMap: null,
+        },
+        {
+          interpolatedColor: null,
+        },
+        {
+          metallic: 0,
+        },
+        {
+          metallicMap: null,
+        },
+        {
+          roughness: 1,
+        },
+        {
+          roughnessMap: null,
+        },
+        {
+          opacity: null,
+        },
+      ],
+      source: 'build/sceneform_sdk/default_materials/fbx_material.sfm',
+    },
+    {
+      name: 'Lampu Mobil',
+      parameters: [
+        {
+          baseColor: [
+            1,
+            0.76370700000000002,
+            0.020659,
+            1,
+          ],
+        },
+        {
+          baseColorMap: null,
+        },
+        {
+          normalMap: null,
+        },
+        {
+          interpolatedColor: null,
+        },
+        {
+          metallic: 0,
+        },
+        {
+          metallicMap: null,
+        },
+        {
+          roughness: 1,
+        },
+        {
+          roughnessMap: null,
+        },
+        {
+          opacity: null,
+        },
+      ],
+      source: 'build/sceneform_sdk/default_materials/fbx_material.sfm',
+    },
+    {
+      name: 'Hitam',
+      parameters: [
+        {
+          baseColor: [
+            0.0020630000000000002,
+            0.0020630000000000002,
+            0.0020630000000000002,
+            1,
+          ],
+        },
+        {
+          baseColorMap: null,
+        },
+        {
+          normalMap: null,
+        },
+        {
+          interpolatedColor: null,
+        },
+        {
+          metallic: 0,
+        },
+        {
+          metallicMap: null,
+        },
+        {
+          roughness: 1,
+        },
+        {
+          roughnessMap: null,
+        },
+        {
+          opacity: null,
+        },
+      ],
+      source: 'build/sceneform_sdk/default_materials/fbx_material.sfm',
+    },
+    {
+      name: 'Material.003',
+      parameters: [
+        {
+          baseColor: [
+            1,
+            1,
+            1,
+            1,
+          ],
+        },
+        {
+          baseColorMap: null,
+        },
+        {
+          normalMap: null,
+        },
+        {
+          interpolatedColor: null,
+        },
+        {
+          metallic: 0,
+        },
+        {
+          metallicMap: null,
+        },
+        {
+          roughness: 1,
+        },
+        {
+          roughnessMap: null,
+        },
+        {
+          opacity: null,
+        },
+      ],
+      source: 'build/sceneform_sdk/default_materials/fbx_material.sfm',
+    },
+    {
+      name: 'Material.001',
+      parameters: [
+        {
+          baseColor: [
+            0.046961999999999997,
+            0.028493999999999998,
+            0.001413,
+            1,
+          ],
+        },
+        {
+          baseColorMap: null,
+        },
+        {
+          normalMap: null,
+        },
+        {
+          interpolatedColor: null,
+        },
+        {
+          metallic: 0,
+        },
+        {
+          metallicMap: null,
+        },
+        {
+          roughness: 1,
+        },
+        {
+          roughnessMap: null,
+        },
+        {
+          opacity: null,
+        },
+      ],
+      source: 'build/sceneform_sdk/default_materials/fbx_material.sfm',
+    },
+  ],
+  model: {
+    attributes: [
+      'Position',
+      'TexCoord',
+      'Orientation',
+      'BoneIndices',
+      'BoneWeights',
+    ],
+    collision: {},
+    file: 'sampledata/toy6.fbx',
+    name: 'toy6',
+    recenter: 'root',
+    scale: 0.34674899999999997,
+  },
+  version: '0.54:2',
+}
